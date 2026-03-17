@@ -2,7 +2,7 @@
 [build]
 command = "npm run build"
 directory = "dist"
-node_version = "18"
+node_version = "20.19.0"
 install_command = "npm ci"
 
 [env.production]
