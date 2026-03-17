@@ -1,0 +1,10 @@
+# Cloudflare Pages configuration - ensure correct Node version and build outputs
+[build]
+command = "npm run build"
+directory = "dist"
+node_version = "18"
+install_command = "npm ci"
+
+[env.production]
+# Uncomment and set any env vars needed for build or runtime
+# MY_ENV_VAR = "value"
